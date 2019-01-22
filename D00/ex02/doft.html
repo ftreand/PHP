@@ -13,6 +13,7 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="doft.css">
   <title>doft42</title>
@@ -35,12 +36,23 @@
     </nav>
     <main class="container">
       <img src="resources/cluster.jpg" id="cluster">
+      <a href="http://www.ikea.com" id="ikea" target="_blank"  alt="ikea" title="ikea"></a>
+      <a href="http://www.apple.com" id="apple" target="_blank" alt="apple" title="apple"></a>
+
     </main>
     <aside class=container>
       <img src="resources/book.png" id="book" alt="Aide" title="Aide"/>
       <img src="resources/towel.png" id="towel" alt="Nettoyer" title="Nettoyer"/>
       <div id="brick" alt="Impasse" title="Impasse"></div>
     </aside>
+    <div class="container" id="dialogue" title="interactive_box">
+    <p id="text1">Vous <span id="entrez">entrez </span>alors dans une grande piece remplie d'<span id="ordinateurs">ordinateurs</span>...</p>
+    <p><i>-Bonjour, vous êtes nouveau ici ?</i></p>
+    <form>
+      <input type="text" id="input">
+      <input type="submit" value="Repondre" id="button">
+    </form>
+    </div>
   </section>
 </body>
 
