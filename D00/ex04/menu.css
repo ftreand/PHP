@@ -61,6 +61,22 @@ nav li:hover .submenu{
   width: 270px;
 }
 
+.pdj:hover{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 78, 0.15);
+}
+
 .viande:hover{
   border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 78, 0.15);
+}
+
+.poisson:hover{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 78, 0.15);
+}
+
+.vegan:hover{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 78, 0.15);
 }
